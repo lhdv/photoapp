@@ -7,6 +7,5 @@ if Rails.env.production?
     }
     cfg.fog_directory = ENV['S3_BUCKET']
     cfg.fog_public = false
-    cfg.aws_acl    =  :private
   end
 end
